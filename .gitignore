@@ -1,0 +1,8 @@
+.streamlit/secrets.toml
+data/*
+__pycache__/*
+.ipynb_checkpoints/*
+.venv/*
+*.ipynb
+*.json
+poetry.lock
