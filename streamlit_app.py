@@ -161,12 +161,13 @@ class Chart:
         return fig
 
 
-st.title("Dashboard Demo -- Freddie Mac Loans Origination and Performance")
+st.title("Freddie Mac Loans Origination and Performance")
 md = """
 - This dashboard uses part of Freddie Mac public [loan level data sets](https://www.freddiemac.com/research/datasets/sf-loanlevel-dataset). 
 - This dashboard mainly uses [Streamlit](https://streamlit.io/) and Google Cloud Bigquery.
 - The dashboard does not reflect actual Freddie Mac's business since the sample used does not reflect the whole portfolio.
 - The dashboard cannot be used for any risk management purposes.
+- Created by [The Model Advantage](https://www.themodeladvantage.com/)
 """
 with st.expander("**Note and Disclaimer**"):
     st.markdown(md)
